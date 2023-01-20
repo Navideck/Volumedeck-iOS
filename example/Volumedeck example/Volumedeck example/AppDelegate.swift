@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     /// Only for demonstration purposes. Use this when no SceneDelegate is present. Not called in this example app as SceneDelegate is used instead
     func applicationDidBecomeActive(_ application: UIApplication) {
-        volumedeck = Volumedeck()
+        volumedeck = Volumedeck(runInBackground: true)
                 
         // Set status
         volumedeck?.isOn = true

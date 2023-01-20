@@ -10,7 +10,7 @@ import Swift
 import UIKit
 import _Concurrency
 public class Volumedeck {
-  public init()
+  public init(runInBackground: Swift.Bool = false)
   public var isOn: Swift.Bool {
     get
     set
