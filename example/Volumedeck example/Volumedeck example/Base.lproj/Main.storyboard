@@ -17,20 +17,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volumedeck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXj-VJ-38n">
-                                <rect key="frame" x="149.66666666666666" y="415.66666666666669" width="94" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dEB-EL-skg">
+                                <rect key="frame" x="0.0" y="373.66666666666669" width="393" height="105"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volumedeck" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXj-VJ-38n">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="40" translatesAutoresizingMaskIntoConstraints="NO" id="vHZ-uh-mFS">
+                                        <rect key="frame" x="-2" y="20.333333333333314" width="397" height="31"/>
+                                        <connections>
+                                            <action selector="speedChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="rmY-71-asz"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTS-DK-CmY">
+                                        <rect key="frame" x="0.0" y="50.333333333333314" width="393" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0K-nI-8Af">
+                                        <rect key="frame" x="0.0" y="70.666666666666629" width="393" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Send"/>
+                                        <connections>
+                                            <action selector="sendSpeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLp-Vu-Y3U"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="MXj-VJ-38n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ze-mH-OA3"/>
-                            <constraint firstItem="MXj-VJ-38n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mil-zC-QqW"/>
+                            <constraint firstItem="dEB-EL-skg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0ms-yu-INf"/>
+                            <constraint firstItem="dEB-EL-skg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TBW-Hx-DKX"/>
+                            <constraint firstItem="dEB-EL-skg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f9W-7n-fud"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dEB-EL-skg" secondAttribute="trailing" id="mhu-Kl-1Lo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="speedLabel" destination="KTS-DK-CmY" id="sWl-R3-kz9"/>
+                        <outlet property="speedSlider" destination="vHZ-uh-mFS" id="asz-EW-huI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
