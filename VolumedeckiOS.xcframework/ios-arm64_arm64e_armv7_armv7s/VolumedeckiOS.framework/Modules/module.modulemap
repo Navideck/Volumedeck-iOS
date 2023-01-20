@@ -1,0 +1,4 @@
+framework module VolumedeckiOS {
+  header "VolumedeckiOS-Swift.h"
+  requires objc
+}
