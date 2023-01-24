@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF6FEBCE297B2C85003ABC4B /* VolumedeckiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6FEBCC297B2B2E003ABC4B /* VolumedeckiOS.framework */; };
-		AF6FEBCF297B2C85003ABC4B /* VolumedeckiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF6FEBCC297B2B2E003ABC4B /* VolumedeckiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF6FEBE7297BD3B2003ABC4B /* VolumedeckiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6FEBE5297BD3AD003ABC4B /* VolumedeckiOS.xcframework */; };
+		AF6FEBE8297BD3B2003ABC4B /* VolumedeckiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF6FEBE5297BD3AD003ABC4B /* VolumedeckiOS.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFC2A7D8297A7337006F6991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2A7D7297A7337006F6991 /* AppDelegate.swift */; };
 		AFC2A7DA297A7337006F6991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2A7D9297A7337006F6991 /* SceneDelegate.swift */; };
 		AFC2A7DC297A7337006F6991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC2A7DB297A7337006F6991 /* ViewController.swift */; };
@@ -17,16 +17,6 @@
 		AFC2A7E4297A7338006F6991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC2A7E2297A7338006F6991 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AF6FEBCB297B2B2E003ABC4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF6FEBC7297B2B2E003ABC4B /* VolumedeckiOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AF27FB0824DB1DC200977284;
-			remoteInfo = VolumedeckiOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		AFC2A7F1297A74C3006F6991 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -34,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AF6FEBCF297B2C85003ABC4B /* VolumedeckiOS.framework in Embed Frameworks */,
+				AF6FEBE8297BD3B2003ABC4B /* VolumedeckiOS.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF6FEBC7297B2B2E003ABC4B /* VolumedeckiOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VolumedeckiOS.xcodeproj; path = ../../../../VolumedeckiOS.xcodeproj; sourceTree = "<group>"; };
+		AF6FEBE5297BD3AD003ABC4B /* VolumedeckiOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VolumedeckiOS.xcframework; path = ../../../VolumedeckiOS.xcframework; sourceTree = "<group>"; };
 		AFC2A7D4297A7337006F6991 /* Volumedeck example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volumedeck example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC2A7D7297A7337006F6991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFC2A7D9297A7337006F6991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,21 +48,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF6FEBCE297B2C85003ABC4B /* VolumedeckiOS.framework in Frameworks */,
+				AF6FEBE7297BD3B2003ABC4B /* VolumedeckiOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF6FEBC8297B2B2E003ABC4B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF6FEBCC297B2B2E003ABC4B /* VolumedeckiOS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		AF6FEBCD297B2C85003ABC4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +82,7 @@
 		AFC2A7D6297A7337006F6991 /* Volumedeck example */ = {
 			isa = PBXGroup;
 			children = (
-				AF6FEBC7297B2B2E003ABC4B /* VolumedeckiOS.xcodeproj */,
+				AF6FEBE5297BD3AD003ABC4B /* VolumedeckiOS.xcframework */,
 				AFC2A7D7297A7337006F6991 /* AppDelegate.swift */,
 				AFC2A7D9297A7337006F6991 /* SceneDelegate.swift */,
 				AFC2A7DB297A7337006F6991 /* ViewController.swift */,
@@ -159,28 +141,12 @@
 			mainGroup = AFC2A7CB297A7337006F6991;
 			productRefGroup = AFC2A7D5297A7337006F6991 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AF6FEBC8297B2B2E003ABC4B /* Products */;
-					ProjectRef = AF6FEBC7297B2B2E003ABC4B /* VolumedeckiOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				AFC2A7D3297A7337006F6991 /* Volumedeck example */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		AF6FEBCC297B2B2E003ABC4B /* VolumedeckiOS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VolumedeckiOS.framework;
-			remoteRef = AF6FEBCB297B2B2E003ABC4B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AFC2A7D2297A7337006F6991 /* Resources */ = {

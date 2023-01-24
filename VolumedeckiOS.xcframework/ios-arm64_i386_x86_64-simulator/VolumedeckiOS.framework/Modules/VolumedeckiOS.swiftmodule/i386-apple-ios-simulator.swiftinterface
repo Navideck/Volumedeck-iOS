@@ -15,5 +15,6 @@ public class Volumedeck {
     get
     set
   }
+  public func mockSpeed(speed: Swift.Double)
   @objc deinit
 }
