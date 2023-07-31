@@ -10,11 +10,9 @@ import Swift
 import UIKit
 import _Concurrency
 public class Volumedeck {
-  public init(runInBackground: Swift.Bool = false)
-  public var isOn: Swift.Bool {
-    get
-    set
-  }
+  public init(runInBackground: Swift.Bool = false, onLocationUpdate: ((Swift.Double, Swift.Double) -> Swift.Void)? = nil, onLocationStatusChange: ((Swift.Bool) -> Swift.Void)? = nil, onStart: (() -> Swift.Void)? = nil, onStop: (() -> Swift.Void)? = nil, activationKey: Swift.String? = nil, autoStart: Swift.Bool = true)
+  public func start()
+  public func stop()
   public func mockSpeed(speed: Swift.Double)
   @objc deinit
 }

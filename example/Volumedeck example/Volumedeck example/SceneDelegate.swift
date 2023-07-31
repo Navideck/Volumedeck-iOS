@@ -34,7 +34,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         volumedeck = Volumedeck(runInBackground: true)
                 
         // Set status
-        volumedeck?.isOn = true
+        volumedeck?.start()
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

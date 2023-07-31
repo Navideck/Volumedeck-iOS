@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         volumedeck = Volumedeck(runInBackground: true)
                 
         // Set status
-        volumedeck?.isOn = true
+        volumedeck?.start()
     }
 
     // MARK: UISceneSession Lifecycle

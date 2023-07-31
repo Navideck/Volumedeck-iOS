@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22C65</string>
+	<string>22F82</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>VolumedeckiOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.navideck.volumedeck</string>
+	<string>com.navideck.volumedeck-ios</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

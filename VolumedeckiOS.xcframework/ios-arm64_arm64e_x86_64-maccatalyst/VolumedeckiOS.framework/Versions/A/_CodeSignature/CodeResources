@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		mo18kU+XG8ZdQOScYsnSvW+m2Tg=
+		Hjh3iw5JYF2TP2BKN8cKgwwx0d4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -29,63 +29,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gsNnrA7BSIMVzVRj1ZBvT2YDZolAU50r7wj3biRNUdM=
+			4VGFGjcYS6+wd0tNX2PBCPYHvmiESvzXQRUHxjEUw5s=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yUkjGkNgzra74JRKVysVGRHJTt/FVF+YqZy55u4WCpc=
+			yewZeNVVuG98Bx3axnTrhKlZJblke9Zp4avSjOgcwxU=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wa9/aZmXh6vA7RA95vll/Mdt8S02nDgwfnPSteW/Wvk=
+			OLVxV6pDv0b+8w7MrHanKt9vvTjEXPIn4D3BWQBh5+w=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lgsA+fozIba77zstvhWqOeWZIW1R3Vk+G+IwemUkASU=
+			R1Gu9dOHpXtqNTHOj2zXFmndvCUri3VVoZfsW+lYh/4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sw0SPvRRSEEoBMzUoCJ/6+qhwqTv4iEsLaqwpnKxKcA=
+			FXwJ/f85Bux12QSCVyKTR/pxmrmYMHdj/xYFoRwSH70=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			86EsoBxv5QGHK/mCaNrYyOftBduHN/BVEm+w0j9sOCs=
+			VoFt92X9+yIZMN6R6BmRE1pBiMjKcevjsXsgFIlgsgQ=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s6+o+spJaRDS2K+cofm+9cbrCp2iPWPFSSKnOUbzUqs=
+			pOE0P7VradKjsEXb+u3Y7fQMxwqbAPP4RIMCkbum2yU=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HWmaa4LEry4MLBezCrE+EWbVhVqXgrbYWxbgn19ijfE=
+			g4lv5n5Ba8hn/WkSP/t/R5PJl/ggjBsWt4q0WME8c3Y=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OV2BBVNZQAzsXgcqnPkaW29lCM+1hcLay7hP1x7yG8c=
+			YkRQPQKtCj6b3iv9Gwbea8c9rFvlmkjr2Gx2vEcqGFA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			34suGZXkOVh6EqBFskoEuEZuFEaC+m4EohBaB2SwINc=
+			fytieDW19D5dwF/gldnZqAmjj4fEU2jyKTC15wFc8Kg=
 			</data>
 		</dict>
 	</dict>
