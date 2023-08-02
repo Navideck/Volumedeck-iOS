@@ -15,22 +15,26 @@ Volumedeck SDK provides speed-based audio volume control for iOS apps, enhancing
 
 ## Getting Started
 
-To use Volumedeck SDK, follow these steps:
+To use Volumedeck SDK, follow these steps.
 
-1. Import the Volumedeck SDK module into your Swift class:
+### Step 1: Import VolumedeckiOS
+
+Import the VolumedeckiOS module into your Swift class:
 
 ```swift
-import Volumedeck // Or import VolumedeckiOS if you imported the xcframework directly
+import VolumedeckiOS
 ```
 
-2. Initialize Volumedeck SDK in your AppDelegate or SceneDelegate:
+### Step 2: Choose Integration Option
 
-### AppDelegate
+Initialize the SDK in your AppDelegate or SceneDelegate:
+
+#### AppDelegate
 
 It's recommended to instantiate the SDK in the `applicationDidBecomeActive` method or later, as the window might not be instantiated in the `didFinishLaunchingWithOptions` lifecycle event.
 
 ```swift
-import Volumedeck
+import VolumedeckiOS
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -47,12 +51,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-### SceneDelegate
+#### SceneDelegate
 
 For applications that support scenes, use the `sceneDidBecomeActive` method or later.
 
 ```swift
-import Volumedeck
+import VolumedeckiOS
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -69,7 +73,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
-## Add NSLocationWhenInUseUsageDescription in your plist
+### Step 3: Configure your plist
+ Add NSLocationWhenInUseUsageDescription in your plist
 
 To use Volumedeck, you need to add the `NSLocationWhenInUseUsageDescription` key in your app's `Info.plist` file. Provide an appropriate description, such as "Volumedeck needs to read your current speed."
 
