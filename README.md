@@ -11,11 +11,14 @@ Volumedeck SDK provides speed-based audio volume control for iOS apps, enhancing
 - Efficient and Reliable: Real-time speed-based volume control for smooth and uninterrupted listening experiences.
 - Easy Integration: User-friendly API and comprehensive documentation for straightforward implementation.
 - Versatile Applications: Enhances navigation, music streaming, and audio content delivery apps for various vehicles and public transport.
-- Seamless Integration with Hardware Volume Keys: Allows unified volume control alongside Gesturedeck adjustments.
+- Seamless Integration with Hardware Volume Keys: Allows unified volume control alongside Volumedeck adjustments.
+- Does not require internet connectivity
 
-## Getting Started
+## Getting Started with Volumedeck
 
-To use Volumedeck SDK, follow these steps.
+To integrate Volumedeck into your iOS app, you must add the Volumedeck framework to your project. You can easily do that using Swift Package Manager (SPM). Through Xcode, go to Package Dependencies, click `+`` and simply use the URL of this repo. SPM will fetch and add the framework automatically. 
+
+After adding the framework, follow the steps below to integrate it with your app.
 
 ### Step 1: Import VolumedeckiOS
 
@@ -89,6 +92,14 @@ Volumedeck(runInBackground: true)
 ```
 
 2. In the project settings, navigate to "Signing & Capabilities," add "Background Modes," and check "Location Updates."
+
+## Free to Use
+Volumedeck SDK is free to use, providing you with the full functionality of the SDK without any time limitations. You are welcome to integrate it into both personal and commercial projects. When using Volumedeck SDK for free, a watermark will be presented during runtime. It is strictly prohibited  to hide, remove, or alter in any way the watermark from the free version of Volumedeck SDK.
+
+### Activation Key and Watermark Removal
+For those who wish to remove the watermark from their app, we offer an activation key that allows you to use the SDK without any watermarks. However, please be aware that the watermark-free version is not available for free and requires a purchase.
+
+To inquire about purchasing an activation key or if you have any other questions related to licensing and usage, please contact us at team@navideck.com. We will be happy to assist you with the process and provide you with the necessary information.
 
 ## Contact
 
