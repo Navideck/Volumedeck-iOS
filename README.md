@@ -16,7 +16,7 @@ Volumedeck SDK provides speed-based audio volume control for iOS apps, enhancing
 
 ## Getting Started with Volumedeck
 
-To integrate Volumedeck into your iOS app, you must add the Volumedeck framework to your project. You can easily do that using Swift Package Manager (SPM). Through Xcode, go to Package Dependencies, click `+`` and simply use the URL of this repo. SPM will fetch and add the framework automatically. 
+To integrate Volumedeck into your iOS app, you must add the Volumedeck framework to your project. You can easily do that using Swift Package Manager (SPM). Through Xcode, go to `Package Dependencies`, click `+` and simply use the URL of this repo. SPM will fetch and add the framework automatically. 
 
 After adding the framework, follow the steps below to integrate it with your app.
 
@@ -34,7 +34,7 @@ Initialize the SDK in your AppDelegate or SceneDelegate:
 
 #### AppDelegate
 
-It's recommended to instantiate the SDK in the `applicationDidBecomeActive` method or later, as the window might not be instantiated in the `didFinishLaunchingWithOptions` lifecycle event.
+It's recommended to initialize the SDK in the `applicationDidBecomeActive` method or later, as the window might not be initialized in the `didFinishLaunchingWithOptions` lifecycle event. Make sure that you avoid initializing Volumedeck multiple times.
 
 ```swift
 import VolumedeckiOS
@@ -45,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var volumedeck: Volumedeck?
 
   func applicationDidBecomeActive(_ application: UIApplication) {
-    // Instantiate Volumedeck
-    volumedeck = Volumedeck()
+    // Initialize Volumedeck
+    volumedeck = volumedeck ?? Volumedeck()
 
     // Set the status
     volumedeck?.isOn = true
@@ -56,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 #### SceneDelegate
 
-For applications that support scenes, use the `sceneDidBecomeActive` method or later.
+For applications that support scenes, use the `sceneDidBecomeActive` method or later. Make sure that you avoid initializing Volumedeck multiple times.
 
 ```swift
 import VolumedeckiOS
@@ -67,8 +67,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   var volumedeck: Volumedeck?
 
   func sceneDidBecomeActive(_ scene: UIScene) {
-    // Instantiate Volumedeck
-    volumedeck = Volumedeck()
+    // Initialize Volumedeck
+    volumedeck = volumedeck ?? Volumedeck()
 
     // Set the status
     volumedeck?.isOn = true
@@ -85,13 +85,32 @@ To use Volumedeck, you need to add the `NSLocationWhenInUseUsageDescription` key
 
 If you want Volumedeck to run when your app is in the background, follow these steps:
 
-1. Pass the `runInBackground` property when instantiating Volumedeck:
+1. Pass the `runInBackground` property when initializing Volumedeck:
 
 ```swift
 Volumedeck(runInBackground: true)
 ```
 
 2. In the project settings, navigate to "Signing & Capabilities," add "Background Modes," and check "Location Updates."
+
+## Objective-C
+Volumedeck is fully compatible with `Objective-C`. When using Objective-C you can initialize Volumedeck using:
+
+```objective-c
+@import VolumedeckiOS;
+```
+
+```objective-c
+@property Volumedeck *volumedeck;
+```
+
+and
+
+```objective-c
+if (self.volumedeck == nil) {
+    self.volumedeck = [[Volumedeck alloc] init];
+}
+```
 
 ## Free to Use
 Volumedeck SDK is free to use, providing you with the full functionality of the SDK without any time limitations. You are welcome to integrate it into both personal and commercial projects. When using Volumedeck SDK for free, a watermark will be presented during runtime. It is strictly prohibited  to hide, remove, or alter in any way the watermark from the free version of Volumedeck SDK.
