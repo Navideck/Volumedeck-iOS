@@ -2,7 +2,7 @@
 
 ## Overview
 
-Volumedeck SDK provides speed-based audio volume control for iOS apps, enhancing the audio experience for users in vehicles and public transport.
+Volumedeck provides automatic volume adjustment based on GPS speed, improving the media-listening experience for users in vehicles and public transport.
 
 ## Key Features
 
