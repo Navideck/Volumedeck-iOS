@@ -10,47 +10,47 @@
 		</data>
 		<key>Headers/VolumedeckiOS-Swift.h</key>
 		<data>
-		l7qwVvXGGAf3KF7rjwkFvJh7vro=
+		8fwXGMK+YnihNsmLHT+OC+Mkl3c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7RNcUyrA5GhMAt/F2vH85iXNMyU=
+		nXbUyBCFHqcTuKaOb5mk4WjRr7E=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pFWivoEzJXyiV/6EBuM/iWV30e4=
+		uUQRhDxM3urf0B7/GDvvDK8qBCE=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j+2jfOXkAEPZtNCsAMLHDFHgaBs=
+		f+kUwtKrYiFirPmkYQyMOuzuXzY=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gku2HpkVM3sJ3iGLhxIVjpVDq1I=
+		+6VS64Ib2l0WFOezh/a1nozMceM=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EPkE0MzAcVHi8dtNf9KpKnTYwKo=
+		3iFOVI0Byd5rg0PPeUKuDg87hSw=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wURpc2ku/ac/YdLJ89YTv+WmS+o=
+		X0H02r75PBrz1sPZXQoeOvTgVkw=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iIphU2w3psgK5Cdy9Xs2oFQuxk4=
+		bu+AiHnoal5/h+7mvhaTpRyV7Yo=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eSU0W3v7gmvUIdCDTDdTWjt6QcY=
+		JRFYDfnHw0fQaLnFwauS7S/IofA=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jQzDtOjdA9ll5HmMRs6WA2ds75M=
+		ZgnYgyk8pWqyQMCc70w9u+fUN6E=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/AZSJrLLVd86mQZJNjgcEEmSQ2M=
+		s/hyfDyuchB/kRH0Ujt5RLmJq6I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,110 +74,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l7qwVvXGGAf3KF7rjwkFvJh7vro=
+			8fwXGMK+YnihNsmLHT+OC+Mkl3c=
 			</data>
 			<key>hash2</key>
 			<data>
-			e85SAjdzGNJhjnUUZgRScwG7PBohcRUK2CsvaeOUL8k=
+			bnsYOVKZpBxSdOoiolxgiGi2jDY4V+UdNzWLBISX+SI=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pFWivoEzJXyiV/6EBuM/iWV30e4=
+			uUQRhDxM3urf0B7/GDvvDK8qBCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FIy7VS/4IxYLfe0RbJoMIUeTWdz+0Bx2/VYhymok+1o=
+			OlDwWBWy8TtyepVdWg1OC4Cpj+/9fqVylR5cdRITc/g=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j+2jfOXkAEPZtNCsAMLHDFHgaBs=
+			f+kUwtKrYiFirPmkYQyMOuzuXzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			27iqcSKgrz2HHkZNjnphacqmmMOoDx2T5rKr8Ob8lx8=
+			faO5qeTnxj4ml29nXpTdqAJuhLbMc/QpZVAPHY1XrX4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gku2HpkVM3sJ3iGLhxIVjpVDq1I=
+			+6VS64Ib2l0WFOezh/a1nozMceM=
 			</data>
 			<key>hash2</key>
 			<data>
-			IvYL3uq9qw7biGTjF8nwpX1KUq9gNAmAbJtqboBVfDo=
+			NjtE3nUvadrI8OT/CYjyMQ9zMbemtnjq1JPK2Y6G9OM=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EPkE0MzAcVHi8dtNf9KpKnTYwKo=
+			3iFOVI0Byd5rg0PPeUKuDg87hSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			kde/r58+zwfQmBDmOwcwugHrAnul1lEXgKW+n/vQX2o=
+			1HkzSCdvhTO1QUqK7QJmvjokQFH6kPDd6ooRdzQOZuQ=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wURpc2ku/ac/YdLJ89YTv+WmS+o=
+			X0H02r75PBrz1sPZXQoeOvTgVkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			i2XRMeEI0grhP6DTKg4ic9W68Knkla821NIxeHj932c=
+			ySt/CXbT59orDstxEmMSmxSAdmU00Fm/ygVpTCWp76I=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iIphU2w3psgK5Cdy9Xs2oFQuxk4=
+			bu+AiHnoal5/h+7mvhaTpRyV7Yo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UDUcKVNC72CaZr05YIuSP1lSvCOV+Ci+lVStmptxTLM=
+			iFZ1FesYhNEC7j4tWTXnl02fduSO8NVYEsggZhiOtf4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eSU0W3v7gmvUIdCDTDdTWjt6QcY=
+			JRFYDfnHw0fQaLnFwauS7S/IofA=
 			</data>
 			<key>hash2</key>
 			<data>
-			yiGT9NnejV36Pn12BfmEC+q7+c2Tf55OhRO02vtb6/0=
+			i0VahW9unhS8CPWk6LrptRM396ZG9hUZI6fFYoJ0TiE=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jQzDtOjdA9ll5HmMRs6WA2ds75M=
+			ZgnYgyk8pWqyQMCc70w9u+fUN6E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hn9dYRksp95F4K4gELVjIKY4OTfRJLaqIwUnlpr26H0=
+			me0th9Qsxt3xCJBYruaSY+fPg9k6tCcqrJX5XUEweg4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/AZSJrLLVd86mQZJNjgcEEmSQ2M=
+			s/hyfDyuchB/kRH0Ujt5RLmJq6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Kdy+hKioNiu9MCdIy+FM1IgyCnhBQTYLuP/mlAOBI0=
+			ny6Hx03tpbD7PSMcYwBMlJMIr05yXXTCqYp/7KZRwNw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

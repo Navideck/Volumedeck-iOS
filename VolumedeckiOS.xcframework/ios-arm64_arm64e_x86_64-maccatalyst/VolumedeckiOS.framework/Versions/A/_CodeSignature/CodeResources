@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		Hjh3iw5JYF2TP2BKN8cKgwwx0d4=
+		8MEV87swxev0Kk0bTddbD0hQKuQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -22,70 +22,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V52KmFspMVpaBE53KIZAEikZgJSshfVi9aBiEXwhUFU=
+			9ObZ8rNZySEiSDxECoL6JbMP4Zw+3bU7vyTDNF37At8=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4VGFGjcYS6+wd0tNX2PBCPYHvmiESvzXQRUHxjEUw5s=
+			b236YjxtqxaAZ0lP0n5vZzOOJK1K+p/cTqedWFEplOI=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yewZeNVVuG98Bx3axnTrhKlZJblke9Zp4avSjOgcwxU=
+			m7/9N2kWy/dHOSQVAI+XdVHozsUKvljg0t52JNepEFk=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OLVxV6pDv0b+8w7MrHanKt9vvTjEXPIn4D3BWQBh5+w=
+			ogby8eAPeAcNVscmCRBAmPHT1Mg+EOEKxSfvn6VWq7A=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R1Gu9dOHpXtqNTHOj2zXFmndvCUri3VVoZfsW+lYh/4=
+			wzFbBb0ivoFi6imQSk9WaGD/6slrQnFNNhWQA7OY/RU=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FXwJ/f85Bux12QSCVyKTR/pxmrmYMHdj/xYFoRwSH70=
+			1s0SrrG0t6OF25iINhbr6NTXmMU6FWWNa2SrsZa7NR4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VoFt92X9+yIZMN6R6BmRE1pBiMjKcevjsXsgFIlgsgQ=
+			TtZA3LVJ8lGmQZJpZURRlc5kBBhKozSLIiZSaDatkUQ=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOE0P7VradKjsEXb+u3Y7fQMxwqbAPP4RIMCkbum2yU=
+			F9fjtLwFOo0ZsVthAgKOML2UjAAC/lc1rBUFVzMP/MY=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g4lv5n5Ba8hn/WkSP/t/R5PJl/ggjBsWt4q0WME8c3Y=
+			SNj0+2Wed4RHoicRpG6wKlnjlwgbcTwUqXTwVAWD1X8=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkRQPQKtCj6b3iv9Gwbea8c9rFvlmkjr2Gx2vEcqGFA=
+			4DSWuczHcjbDpaVq7gUlsYlWugXxBhA8q3gFsLELXuY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fytieDW19D5dwF/gldnZqAmjj4fEU2jyKTC15wFc8Kg=
+			REdiJDLIgucH1tQDOHdhcGw/4jp2KYTpDL5TjybKnR0=
 			</data>
 		</dict>
 	</dict>

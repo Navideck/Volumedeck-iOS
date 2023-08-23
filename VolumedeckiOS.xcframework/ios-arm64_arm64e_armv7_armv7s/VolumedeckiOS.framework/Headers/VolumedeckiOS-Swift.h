@@ -197,6 +197,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -213,6 +214,71 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="VolumedeckiOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSString;
+
+/// Volumedeck provides automatic volume adjustment based on GPS speed,
+/// improving the media-listening experience for users in vehicles and public transport.
+/// Usage:
+/// <ul>
+///   <li>
+///     Initialize an instance of <code>Volumedeck</code> to enable volume adjustments based on GPS speed.
+///   </li>
+///   <li>
+///     Optionally, pass an activation key to remove watermarks, otherwise, it will run in watermark mode.
+///   </li>
+///   <li>
+///     The class uses the <code>SpeedVolumeAdjust</code> and <code>Activation</code> classes internally to handle volume adjustments and activation checks.
+///   </li>
+/// </ul>
+/// Example:
+/// \code
+/// // Initialize Volumedeck with activation key
+/// let activationKey = "YOUR_ACTIVATION_KEY"
+/// let volumedeck = Volumedeck(activationKey: activationKey)
+///
+/// // Start adjusting volume based on GPS speed
+/// volumedeck.start()
+///
+/// // Stop volume adjustments
+/// volumedeck.stop()
+///
+/// \endcodenote:
+/// The <code>Volumedeck</code> class requires permission to access the device’s GPS location for accurate speed calculations.
+/// important:
+/// To use this class, make sure you import the <code>Volumedeck</code> module.
+SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
+@interface Volumedeck : NSObject
+/// Initializes the Volumedeck class.
+/// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
+///
+/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+///
+/// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
+///
+/// \param onStart A closure that will be executed when  Volumedeck starts. Defaults to <code>nil</code>.
+///
+/// \param onStop A closure that will be executed when Volumedeck stops. Defaults to <code>nil</code>.
+///
+/// \param activationKey An optional activation key to remove watermarks. If not provided, Volumedeck will present a watermark. Defaults to <code>nil</code>.
+///
+/// \param autoStart A boolean indicating whether to automatically start volume adjustments after initialization. Defaults to <code>true</code>.
+///
+- (nonnull instancetype)initWithRunInBackground:(BOOL)runInBackground onLocationUpdate:(void (^ _Nullable)(double, double))onLocationUpdate onLocationStatusChange:(void (^ _Nullable)(BOOL))onLocationStatusChange onStart:(void (^ _Nullable)(void))onStart onStop:(void (^ _Nullable)(void))onStop activationKey:(NSString * _Nullable)activationKey autoStart:(BOOL)autoStart OBJC_DESIGNATED_INITIALIZER;
+/// A convenience initializer for the <code>Volumedeck</code> class.
+- (nonnull instancetype)init;
+/// Starts the volume adjustments based on GPS speed.
+/// This method initiates the volume control process, adjusting the audio volume based on the current GPS speed.
+- (void)start;
+/// Stops the volume adjustments.
+/// This method stops the volume control process, effectively disabling volume adjustments based on GPS speed.
+- (void)stop;
+/// Sets a mock GPS speed for testing purposes.
+/// This method allows setting a mock GPS speed for testing the volume adjustments without actual GPS data.
+/// \param speed The mock speed value to be set for testing volume adjustments.
+///
+- (void)mockSpeedWithSpeed:(double)speed;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -418,6 +484,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -434,6 +501,71 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="VolumedeckiOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSString;
+
+/// Volumedeck provides automatic volume adjustment based on GPS speed,
+/// improving the media-listening experience for users in vehicles and public transport.
+/// Usage:
+/// <ul>
+///   <li>
+///     Initialize an instance of <code>Volumedeck</code> to enable volume adjustments based on GPS speed.
+///   </li>
+///   <li>
+///     Optionally, pass an activation key to remove watermarks, otherwise, it will run in watermark mode.
+///   </li>
+///   <li>
+///     The class uses the <code>SpeedVolumeAdjust</code> and <code>Activation</code> classes internally to handle volume adjustments and activation checks.
+///   </li>
+/// </ul>
+/// Example:
+/// \code
+/// // Initialize Volumedeck with activation key
+/// let activationKey = "YOUR_ACTIVATION_KEY"
+/// let volumedeck = Volumedeck(activationKey: activationKey)
+///
+/// // Start adjusting volume based on GPS speed
+/// volumedeck.start()
+///
+/// // Stop volume adjustments
+/// volumedeck.stop()
+///
+/// \endcodenote:
+/// The <code>Volumedeck</code> class requires permission to access the device’s GPS location for accurate speed calculations.
+/// important:
+/// To use this class, make sure you import the <code>Volumedeck</code> module.
+SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
+@interface Volumedeck : NSObject
+/// Initializes the Volumedeck class.
+/// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
+///
+/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+///
+/// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
+///
+/// \param onStart A closure that will be executed when  Volumedeck starts. Defaults to <code>nil</code>.
+///
+/// \param onStop A closure that will be executed when Volumedeck stops. Defaults to <code>nil</code>.
+///
+/// \param activationKey An optional activation key to remove watermarks. If not provided, Volumedeck will present a watermark. Defaults to <code>nil</code>.
+///
+/// \param autoStart A boolean indicating whether to automatically start volume adjustments after initialization. Defaults to <code>true</code>.
+///
+- (nonnull instancetype)initWithRunInBackground:(BOOL)runInBackground onLocationUpdate:(void (^ _Nullable)(double, double))onLocationUpdate onLocationStatusChange:(void (^ _Nullable)(BOOL))onLocationStatusChange onStart:(void (^ _Nullable)(void))onStart onStop:(void (^ _Nullable)(void))onStop activationKey:(NSString * _Nullable)activationKey autoStart:(BOOL)autoStart OBJC_DESIGNATED_INITIALIZER;
+/// A convenience initializer for the <code>Volumedeck</code> class.
+- (nonnull instancetype)init;
+/// Starts the volume adjustments based on GPS speed.
+/// This method initiates the volume control process, adjusting the audio volume based on the current GPS speed.
+- (void)start;
+/// Stops the volume adjustments.
+/// This method stops the volume control process, effectively disabling volume adjustments based on GPS speed.
+- (void)stop;
+/// Sets a mock GPS speed for testing purposes.
+/// This method allows setting a mock GPS speed for testing the volume adjustments without actual GPS data.
+/// \param speed The mock speed value to be set for testing volume adjustments.
+///
+- (void)mockSpeedWithSpeed:(double)speed;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -639,6 +771,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -655,6 +788,71 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="VolumedeckiOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSString;
+
+/// Volumedeck provides automatic volume adjustment based on GPS speed,
+/// improving the media-listening experience for users in vehicles and public transport.
+/// Usage:
+/// <ul>
+///   <li>
+///     Initialize an instance of <code>Volumedeck</code> to enable volume adjustments based on GPS speed.
+///   </li>
+///   <li>
+///     Optionally, pass an activation key to remove watermarks, otherwise, it will run in watermark mode.
+///   </li>
+///   <li>
+///     The class uses the <code>SpeedVolumeAdjust</code> and <code>Activation</code> classes internally to handle volume adjustments and activation checks.
+///   </li>
+/// </ul>
+/// Example:
+/// \code
+/// // Initialize Volumedeck with activation key
+/// let activationKey = "YOUR_ACTIVATION_KEY"
+/// let volumedeck = Volumedeck(activationKey: activationKey)
+///
+/// // Start adjusting volume based on GPS speed
+/// volumedeck.start()
+///
+/// // Stop volume adjustments
+/// volumedeck.stop()
+///
+/// \endcodenote:
+/// The <code>Volumedeck</code> class requires permission to access the device’s GPS location for accurate speed calculations.
+/// important:
+/// To use this class, make sure you import the <code>Volumedeck</code> module.
+SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
+@interface Volumedeck : NSObject
+/// Initializes the Volumedeck class.
+/// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
+///
+/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+///
+/// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
+///
+/// \param onStart A closure that will be executed when  Volumedeck starts. Defaults to <code>nil</code>.
+///
+/// \param onStop A closure that will be executed when Volumedeck stops. Defaults to <code>nil</code>.
+///
+/// \param activationKey An optional activation key to remove watermarks. If not provided, Volumedeck will present a watermark. Defaults to <code>nil</code>.
+///
+/// \param autoStart A boolean indicating whether to automatically start volume adjustments after initialization. Defaults to <code>true</code>.
+///
+- (nonnull instancetype)initWithRunInBackground:(BOOL)runInBackground onLocationUpdate:(void (^ _Nullable)(double, double))onLocationUpdate onLocationStatusChange:(void (^ _Nullable)(BOOL))onLocationStatusChange onStart:(void (^ _Nullable)(void))onStart onStop:(void (^ _Nullable)(void))onStop activationKey:(NSString * _Nullable)activationKey autoStart:(BOOL)autoStart OBJC_DESIGNATED_INITIALIZER;
+/// A convenience initializer for the <code>Volumedeck</code> class.
+- (nonnull instancetype)init;
+/// Starts the volume adjustments based on GPS speed.
+/// This method initiates the volume control process, adjusting the audio volume based on the current GPS speed.
+- (void)start;
+/// Stops the volume adjustments.
+/// This method stops the volume control process, effectively disabling volume adjustments based on GPS speed.
+- (void)stop;
+/// Sets a mock GPS speed for testing purposes.
+/// This method allows setting a mock GPS speed for testing the volume adjustments without actual GPS data.
+/// \param speed The mock speed value to be set for testing volume adjustments.
+///
+- (void)mockSpeedWithSpeed:(double)speed;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -860,6 +1058,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -876,6 +1075,71 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="VolumedeckiOS",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class NSString;
+
+/// Volumedeck provides automatic volume adjustment based on GPS speed,
+/// improving the media-listening experience for users in vehicles and public transport.
+/// Usage:
+/// <ul>
+///   <li>
+///     Initialize an instance of <code>Volumedeck</code> to enable volume adjustments based on GPS speed.
+///   </li>
+///   <li>
+///     Optionally, pass an activation key to remove watermarks, otherwise, it will run in watermark mode.
+///   </li>
+///   <li>
+///     The class uses the <code>SpeedVolumeAdjust</code> and <code>Activation</code> classes internally to handle volume adjustments and activation checks.
+///   </li>
+/// </ul>
+/// Example:
+/// \code
+/// // Initialize Volumedeck with activation key
+/// let activationKey = "YOUR_ACTIVATION_KEY"
+/// let volumedeck = Volumedeck(activationKey: activationKey)
+///
+/// // Start adjusting volume based on GPS speed
+/// volumedeck.start()
+///
+/// // Stop volume adjustments
+/// volumedeck.stop()
+///
+/// \endcodenote:
+/// The <code>Volumedeck</code> class requires permission to access the device’s GPS location for accurate speed calculations.
+/// important:
+/// To use this class, make sure you import the <code>Volumedeck</code> module.
+SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
+@interface Volumedeck : NSObject
+/// Initializes the Volumedeck class.
+/// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
+///
+/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+///
+/// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
+///
+/// \param onStart A closure that will be executed when  Volumedeck starts. Defaults to <code>nil</code>.
+///
+/// \param onStop A closure that will be executed when Volumedeck stops. Defaults to <code>nil</code>.
+///
+/// \param activationKey An optional activation key to remove watermarks. If not provided, Volumedeck will present a watermark. Defaults to <code>nil</code>.
+///
+/// \param autoStart A boolean indicating whether to automatically start volume adjustments after initialization. Defaults to <code>true</code>.
+///
+- (nonnull instancetype)initWithRunInBackground:(BOOL)runInBackground onLocationUpdate:(void (^ _Nullable)(double, double))onLocationUpdate onLocationStatusChange:(void (^ _Nullable)(BOOL))onLocationStatusChange onStart:(void (^ _Nullable)(void))onStart onStop:(void (^ _Nullable)(void))onStop activationKey:(NSString * _Nullable)activationKey autoStart:(BOOL)autoStart OBJC_DESIGNATED_INITIALIZER;
+/// A convenience initializer for the <code>Volumedeck</code> class.
+- (nonnull instancetype)init;
+/// Starts the volume adjustments based on GPS speed.
+/// This method initiates the volume control process, adjusting the audio volume based on the current GPS speed.
+- (void)start;
+/// Stops the volume adjustments.
+/// This method stops the volume control process, effectively disabling volume adjustments based on GPS speed.
+- (void)stop;
+/// Sets a mock GPS speed for testing purposes.
+/// This method allows setting a mock GPS speed for testing the volume adjustments without actual GPS data.
+/// \param speed The mock speed value to be set for testing volume adjustments.
+///
+- (void)mockSpeedWithSpeed:(double)speed;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
