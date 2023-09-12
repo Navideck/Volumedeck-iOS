@@ -252,7 +252,7 @@ SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
 /// Initializes the Volumedeck class.
 /// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
 ///
-/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+/// \param onLocationUpdate A closure that provides thes speed and volume as arguments. Defaults to <code>nil</code>.
 ///
 /// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
 ///
@@ -539,7 +539,7 @@ SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
 /// Initializes the Volumedeck class.
 /// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
 ///
-/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+/// \param onLocationUpdate A closure that provides thes speed and volume as arguments. Defaults to <code>nil</code>.
 ///
 /// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
 ///
@@ -826,7 +826,7 @@ SWIFT_CLASS("_TtC13VolumedeckiOS10Volumedeck")
 /// Initializes the Volumedeck class.
 /// \param runInBackground A boolean indicating whether to continue running in the background. Defaults to <code>false</code>.
 ///
-/// \param onLocationUpdate A closure that provides the current GPS coordinates (latitude and longitude) as arguments. Defaults to <code>nil</code>.
+/// \param onLocationUpdate A closure that provides thes speed and volume as arguments. Defaults to <code>nil</code>.
 ///
 /// \param onLocationStatusChange A closure that receives a boolean indicating the GPS status (enabled/disabled). Defaults to <code>nil</code>.
 ///

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/VolumedeckiOS-Swift.h</key>
 		<data>
-		d2a2sBBHSQKJQ0l98pVsI2tFVZs=
+		uCTp73phxR6gzlNUnW+sa/UnL8w=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,51 +18,51 @@
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rxjkFPNlJ+WFD5XXXRkX768C9NE=
+		yR+C8lRekpfvT9ZAN3ybg1ujFsA=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Gu5Ebmvgw5FTz/qD+Ssg+aU6oDE=
+		lHJm4p/KfRoPMLOZFRq8TQoG7o0=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aFv5/C9QQ5HEXcqhxPUA6Ch3iDI=
+		+Fdbgp6ILM42DjK8+jp8AzGKNUY=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftdoc</key>
 		<data>
-		H6m3L0Bws34DXMD0w5f7IJ4ttz8=
+		BYn3U0r8ikyBTlKaUmevU5xPF7M=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftinterface</key>
 		<data>
-		zx6a4BwAvd0eqyIMlOxvexprSJI=
+		lHNnZeqEWniAa8goibHYp15s0zs=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftmodule</key>
 		<data>
-		xmMftmS4p5mmAzH21LwpPY2gq+8=
+		N7GwdqyTV5HM5QcMid72aRLWiKg=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		G82v9L7+gKqknAppK1AATwQtNwY=
+		Ka7gvr6xqECX38pGVl4a/qeNzTw=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		Wl/iVLtnkgYy+CQB1S7MAzi52i8=
+		CKoEloPg4QeCR81FBHpHAywIZWo=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		XFnkeasdtnhHoy0vNKHeG0kVIDA=
+		VuX7LQn98SVBk0e5ZQfpZSWZGIg=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftdoc</key>
 		<data>
-		efeXHIgT3DvSDihNoybSrt/MJwo=
+		iVFtBbg0rUm0GDUX9li2BKoPAro=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftinterface</key>
 		<data>
-		QnbldsSNNH5cgSz8KYxIT+lg2+A=
+		vW3At8BH/PDxhuUmqsT0HF2VfJY=
 		</data>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftmodule</key>
 		<data>
-		kX11vJ5mR+cIgXvruoQKN+T6u2Q=
+		z1ibEK89QE10V7n0raAtKslRTTE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,143 +86,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d2a2sBBHSQKJQ0l98pVsI2tFVZs=
+			uCTp73phxR6gzlNUnW+sa/UnL8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			G3V8aT9plGwtf/KGIoH57CT9Lg0ZMcO0XdX4bXP4kpk=
+			6LEZcCoBVajqFIwyj/jhwhk5RCDXcbomc70FOj3qeRo=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rxjkFPNlJ+WFD5XXXRkX768C9NE=
+			yR+C8lRekpfvT9ZAN3ybg1ujFsA=
 			</data>
 			<key>hash2</key>
 			<data>
-			quNhP90SZW7ylolZuTBUz217xfkzovoBWX6rbkSkqWk=
+			Kyqet79iJmdw8GylHJ/wmK5RXuG/Wt07CAeeiGH5884=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gu5Ebmvgw5FTz/qD+Ssg+aU6oDE=
+			lHJm4p/KfRoPMLOZFRq8TQoG7o0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IERrJh7R/l/WmAFMJi7QYwF6Kj4UWKnQdLjd0MqVSqg=
+			FAkcLns48mfIjWiFdwucNTs2lCFm3YZS1kzheprTazs=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aFv5/C9QQ5HEXcqhxPUA6Ch3iDI=
+			+Fdbgp6ILM42DjK8+jp8AzGKNUY=
 			</data>
 			<key>hash2</key>
 			<data>
-			P4bRngCMIZMG4XbFWdf8RuGb+H9nmhuazg1XugVDxO0=
+			lbMbwdRswfEx5qHOX2VNjKBIoXqzBLUE0gJRhbLU4ag=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H6m3L0Bws34DXMD0w5f7IJ4ttz8=
+			BYn3U0r8ikyBTlKaUmevU5xPF7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxKV3ZSd78klhmwFmCSylqGenazHTt7CeV3BNeJr3Ak=
+			h6xXsEVmMfz0/KaYDHXaIaZfSWpWd+xRoGrph8BISBc=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zx6a4BwAvd0eqyIMlOxvexprSJI=
+			lHNnZeqEWniAa8goibHYp15s0zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			EPBH7UQxdCrJ9+aCJA1OCsLLFO9wigyP5hgpao7JJlI=
+			9nZeKhFcBQU0nmVVAfOwjmfHbru0JLBTixV4V9ocS58=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xmMftmS4p5mmAzH21LwpPY2gq+8=
+			N7GwdqyTV5HM5QcMid72aRLWiKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZLvwdhQsLvmFTbW5DmN1o9ITcw68CIoXF5WipDjka8Q=
+			Km61yF4PZ5P//3kdI+0Kv53Yz/eSnRP06wzo1Saawxk=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G82v9L7+gKqknAppK1AATwQtNwY=
+			Ka7gvr6xqECX38pGVl4a/qeNzTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6BP+gD9AodtMkCLvLzoewa3sPMK5YLAjkEH1dxfbYJ8=
+			Ps2s2hlmSTUPs8kNdsB7hhKfnkRqz+3KKdzutt8XTYc=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wl/iVLtnkgYy+CQB1S7MAzi52i8=
+			CKoEloPg4QeCR81FBHpHAywIZWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ud0x3uR2u9GDurjWcGEOQefXKLEZ0TaF3G8GdHaunAU=
+			RvYCYbQKU6pNqzat3bbcgownF1Pp6TbIo5AKsAUGddQ=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XFnkeasdtnhHoy0vNKHeG0kVIDA=
+			VuX7LQn98SVBk0e5ZQfpZSWZGIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			bLPZJ3V7UhLcNTIqaYkwUrQnnfKJfVWI30WOpqGAQJo=
+			r+5o7mNklldeceZ2EFwZbnBieM+g3qfiym8o8l+YKN0=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			efeXHIgT3DvSDihNoybSrt/MJwo=
+			iVFtBbg0rUm0GDUX9li2BKoPAro=
 			</data>
 			<key>hash2</key>
 			<data>
-			zWsCsbHN4NLuy4/5Dg+H3XXGM5Mx1wkfAbaK8D8i/No=
+			q9oO7p6HIoW592HulixpmiMcKY0pWuw/BMQOHagbEfM=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QnbldsSNNH5cgSz8KYxIT+lg2+A=
+			vW3At8BH/PDxhuUmqsT0HF2VfJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bwxzI4d+6RmSNMzw0z1LbIcEGfyJc4VjvarMbpIvkDY=
+			LDmPYbIW9GQZ7DwICd4cYnAGR3cXIl5TlmZEBd2x8hI=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/armv7s-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kX11vJ5mR+cIgXvruoQKN+T6u2Q=
+			z1ibEK89QE10V7n0raAtKslRTTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KqYmUz9aJD1zqu4ZkZ+MExC3/GgppNcOoKurnsjo6RU=
+			mC1jyf2sQiWnmKy82Vb8isiyFfY+DigIKsogd9j6IIE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

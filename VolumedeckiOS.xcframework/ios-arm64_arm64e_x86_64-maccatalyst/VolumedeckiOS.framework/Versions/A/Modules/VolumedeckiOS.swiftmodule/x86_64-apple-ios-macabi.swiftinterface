@@ -11,7 +11,7 @@ import UIKit
 import _Concurrency
 @_inheritsConvenienceInitializers @objc public class Volumedeck : ObjectiveC.NSObject {
   @objc public init(runInBackground: Swift.Bool = false, onLocationUpdate: ((Swift.Double, Swift.Double) -> Swift.Void)? = nil, onLocationStatusChange: ((Swift.Bool) -> Swift.Void)? = nil, onStart: (() -> Swift.Void)? = nil, onStop: (() -> Swift.Void)? = nil, activationKey: Swift.String? = nil, autoStart: Swift.Bool = true)
-  @objc convenience override dynamic public init()
+  @objc override convenience dynamic public init()
   @objc public func start()
   @objc public func stop()
   @objc public func mockSpeed(speed: Swift.Double)
