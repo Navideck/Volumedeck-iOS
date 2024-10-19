@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		8MEV87swxev0Kk0bTddbD0hQKuQ=
+		/slEzx/w++llkfXGnVLrkC+QE8o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j50qlsdQ7szSt7EaU4/j8WHnHx6PD4psqy5sDq45OpQ=
+			KfIU81/zrgcr2d9dn3g9jmZ+32IVpHOCLgSy2nlwztA=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/arm64e-apple-ios-macabi.swiftdoc</key>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4t875Yz7MUomqInzJ6DGQLneyv5zDgRCkixGrL3kylY=
+			+RRbM478UOMPJh2/yWTX0+2oSoaJCTZPTSWuWtgpKj4=
 			</data>
 		</dict>
 		<key>Modules/VolumedeckiOS.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KXk5xNeCr/ACLOwTe/mHtp4A2LxsOs1aPRsJfH08FeQ=
+			+qKOfpmjz1I0HWW+CX0Cs7zvXzfXewIz1gYzr+8+FOA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			REdiJDLIgucH1tQDOHdhcGw/4jp2KYTpDL5TjybKnR0=
+			pnAle//bb5eGaU+zxncs9meNfOVq4Pu4sYrRmcTyfuE=
 			</data>
 		</dict>
 	</dict>
